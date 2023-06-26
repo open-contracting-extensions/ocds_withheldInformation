@@ -1,9 +1,9 @@
 {
   "name": {
-    "en": "Withheld Information"
+    "en": "Withheld information"
   },
   "description": {
-    "en": "Adds an array of withheldInformationItem objects to describe data points that are embargoed or permanently withheld from publication."
+    "en": "Adds a top-level withheld information array to describe items of information whose publication is temporarily or permanently withheld."
   },
   "documentationUrl": {
     "en": "https://github.com/open-contracting-extensions/ocds_withheldInformation_extension"

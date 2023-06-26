@@ -2,7 +2,7 @@
   "properties": {
     "withheldInformation": {
       "title": "Withheld information",
-      "description": "Details about withheld information.",
+      "description": "Details of items of information whose publication is temporarily or permanently withheld.",
       "type": "array",
       "items": {
         "$ref": "#/definitions/WithheldInformationItem"
@@ -14,7 +14,7 @@
   "definitions": {
     "WithheldInformationItem": {
       "title": "Withheld information item",
-      "description": "Details of a withheld item of information.",
+      "description": "An item of information whose publication is temporarily or permanently withheld.",
       "type": "object",
       "properties": {
         "id": {
@@ -25,7 +25,7 @@
         },
         "field": {
           "title": "Field",
-          "description": "The name of the withheld data field.",
+          "description": "The identifer of the field in which the withheld information would otherwise be published.",
           "type": [
             "string",
             "null"
@@ -34,7 +34,7 @@
         },
         "name": {
           "title": "Name",
-          "description": "The title of the withheld data field.",
+          "description": "The name or title of the field in which the withheld information would otherwise be published.",
           "type": [
             "string",
             "null"
@@ -43,7 +43,7 @@
         },
         "rationale": {
           "title": "Rationale",
-          "description": "The rationale for withholding this information.",
+          "description": "The rationale for withholding the information.",
           "type": [
             "string",
             "null"
@@ -62,7 +62,7 @@
         "rationaleClassification": {
           "title": "Rationale classifications",
           "type": "array",
-          "description": "Classifications of the rationale for withholding this information.",
+          "description": "Classifications of the rationale for withholding the information.",
           "items": {
             "$ref": "#/definitions/Classification"
           },

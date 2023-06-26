@@ -1,6 +1,6 @@
 # Withheld information
 
-Adds an array of `withheldInformation` objects to describe data points that are embargoed or permanently withheld from publication.
+Adds a top-level withheld information array to describe items of information whose publication is temporarily or permanently withheld.
 
 ## Legal context
 
@@ -12,10 +12,10 @@ In the European Union, this extension's fields correspond to [eForms BG-8 (Not I
 {
   "withheldInformation": [
     {
-      "id": "cro-bot-law-18d27a53-0109-4f93-9231-6659d931bce0",
+      "id": "cro-bor-law-18d27a53-0109-4f93-9231-6659d931bce0",
       "field": "cro-bor-law",
       "name": "Cross Border Law",
-      "rationale": "Information delayed publication because of ...",
+      "rationale": "Publication of this information is delayed because...",
       "rationaleClassification": [
         {
           "scheme": "eu-non-publication-justification",
