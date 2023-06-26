@@ -7,8 +7,8 @@
       "items": {
         "$ref": "#/definitions/WithheldInformationItem"
       },
-      "minItems": 1,
-      "uniqueItems": true
+      "uniqueItems": true,
+      "minItems": 1
     }
   },
   "definitions": {
@@ -16,6 +16,9 @@
       "title": "Withheld information item",
       "description": "An item of information whose publication is temporarily or permanently withheld.",
       "type": "object",
+      "required": [
+        "id"
+      ],
       "properties": {
         "id": {
           "title": "ID",
@@ -61,19 +64,16 @@
         },
         "rationaleClassification": {
           "title": "Rationale classifications",
-          "type": "array",
           "description": "Classifications of the rationale for withholding the information.",
+          "type": "array",
           "items": {
             "$ref": "#/definitions/Classification"
           },
-          "minItems": 1,
+          "wholeListMerge": true,
           "uniqueItems": true,
-          "wholeListMerge": true
+          "minItems": 1
         }
       },
-      "required": [
-        "id"
-      ],
       "minProperties": 1
     }
   }
