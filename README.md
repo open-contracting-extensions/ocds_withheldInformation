@@ -16,7 +16,7 @@ In the European Union, this extension's fields correspond to [eForms BG-8 (Not I
       "field": "cro-bor-law",
       "name": "Cross Border Law",
       "rationale": "Publication of this information is delayed because...",
-      "rationaleClassification": [
+      "rationaleClassifications": [
         {
           "scheme": "eu-non-publication-justification",
           "id": "oth-int",
