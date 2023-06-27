@@ -44,7 +44,7 @@
           ],
           "minLength": 1
         },
-          "availabilityDate": {
+        "availabilityDate": {
           "title": "Availability date",
           "description": "The date on which the withheld information will be published.",
           "type": [
