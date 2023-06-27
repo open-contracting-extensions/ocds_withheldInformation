@@ -4,7 +4,7 @@ Adds a top-level withheld information array to describe items of information who
 
 ## Legal context
 
-In the European Union, this extension's fields correspond to [eForms BG-8 (Not Immediately Published)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest).
+In the European Union, this extension's fields correspond to [eForms BG-8 (Not Immediately Published)](https://docs.ted.europa.eu/eforms/latest/reference/business-terms/). For correspondences to eForms fields, see [OCDS for eForms](https://standard.open-contracting.org/profiles/eforms/latest/en/).
 
 ## Example
 

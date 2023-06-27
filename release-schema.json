@@ -28,7 +28,7 @@
         },
         "field": {
           "title": "Field",
-          "description": "The identifer of the field in which the withheld information would otherwise be published.",
+          "description": "The identifer of the field with which the withheld information would otherwise be published.",
           "type": [
             "string",
             "null"
@@ -37,7 +37,7 @@
         },
         "name": {
           "title": "Name",
-          "description": "The name or title of the field in which the withheld information would otherwise be published.",
+          "description": "The name or title of the field with which the withheld information would otherwise be published.",
           "type": [
             "string",
             "null"
@@ -55,14 +55,14 @@
         },
         "availabilityDate": {
           "title": "Availability date",
-          "description": "The date the withheld information will be published.",
+          "description": "The date on which the withheld information will be published.",
           "type": [
             "string",
             "null"
           ],
           "format": "date-time"
         },
-        "rationaleClassification": {
+        "rationaleClassifications": {
           "title": "Rationale classifications",
           "description": "Classifications of the rationale for withholding the information.",
           "type": "array",
