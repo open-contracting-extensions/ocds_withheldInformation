@@ -44,6 +44,15 @@
           ],
           "minLength": 1
         },
+          "availabilityDate": {
+          "title": "Availability date",
+          "description": "The date on which the withheld information will be published.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date-time"
+        },
         "rationale": {
           "title": "Rationale",
           "description": "The rationale for withholding the information.",
@@ -52,15 +61,6 @@
             "null"
           ],
           "minLength": 1
-        },
-        "availabilityDate": {
-          "title": "Availability date",
-          "description": "The date on which the withheld information will be published.",
-          "type": [
-            "string",
-            "null"
-          ],
-          "format": "date-time"
         },
         "rationaleClassifications": {
           "title": "Rationale classifications",
